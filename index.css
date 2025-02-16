@@ -1,0 +1,81 @@
+@font-face {
+    font-family:  'Comforta';
+    font-weight: 400;  
+    src: url(./assets/Fonts/Comfortaa/static/Comfortaa-Regular.ttf);
+}
+@font-face {
+    font-family:  'Comforta';
+    font-weight: 700;  
+    src: url(./assets/Fonts/Comfortaa/static/Comfortaa-Bold.ttf);
+}
+
+@font-face {
+    font-family:  'Nunito';
+    font-weight: 700;  
+    src: url(./assets/Fonts/Nunito/static/Nunito-Bold.ttf );
+}
+
+@font-face {
+    font-family:  'Nunito';
+    font-weight: 600;  
+    src: url(./assets/Fonts/Nunito/static/Nunito-SemiBold.ttf );
+}
+
+@font-face {
+    font-family:  'Nunito';
+    font-weight: 400;  
+    src: url(./assets/Fonts/Nunito/static/Nunito-Regular.ttf );
+}
+
+@font-face {
+    font-family:  'Playfair Displya';
+    font-weight: 700;  
+    src: url(./assets/Fonts/Playfair_Display/static/PlayfairDisplay-Bold.ttf );
+}
+
+@font-face {
+    font-family:  'Roboto';
+    font-weight: 500;  
+    src: url(./assets/Fonts/Roboto/static/Roboto-Medium.ttf );
+}
+
+@font-face {
+    font-family:  'Raleway';
+    font-weight: 500;  
+    src: url(./assets/Fonts/Raleway/static/Raleway-Medium.ttf );
+}
+
+/* Подключили шрифты конец  */
+
+:root {
+    --brand-yelow: #fdc435;
+    --bg-gray: #F9Faff;
+    --bg-white: #FFFFFF;
+    --bg-line: #25282B;
+    --border-gray: #E8ECF4;
+    --font-high-emphasis: #25282B;
+    --font-medium-emphasis: #828282;
+    --font-low-emphasis: #9A9FA8;
+    --font-black: #333333;
+    --size-base: 4px;
+    --content-width-max: 1200px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 4px;    
+}
+
+body {
+    font-size: 4rem;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
